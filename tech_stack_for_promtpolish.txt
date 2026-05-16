@@ -1,4 +1,6 @@
-Frontend -> React + TypeScript + TailwindCSS (Intermediate)
+Frontend -> React(https://youtu.be/LuNPCSNr-nE?si=YZZbylMOzLOAKhAU)
++ TypeScript(https://youtu.be/kvP6hDXWy88?si=biqlMES_8vCjWIpE)+
+TailwindCSS(https://youtu.be/BTyDQRil9s4?si=hUELYv4pjBp7BSK1) (Intermediate)
 
 Extension -> Chrome Extension Manifest V3 (Advanced)
 
@@ -16,7 +18,7 @@ Authentication -> Firebase (Basic)
 
 Version Control -> Git + GitHub (Intermediate)
 
-Prompt Engineering -> Structured Prompting, Context Engineering, Few-shot Prompting (Advanced)
+
 
 
 
@@ -34,7 +36,7 @@ Prompt Engineering -> Structured Prompting, Context Engineering, Few-shot Prompt
 
 
 Add in MIND:
-Prompt Engineering -> Advanced
+Prompt Engineering -> https://youtu.be/DvhFcIRRXyI?si=9rBAa0Is5hyAMzoD (Advanced)
 
 API Design -> Intermediate
 
