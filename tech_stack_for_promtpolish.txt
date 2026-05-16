@@ -3,7 +3,7 @@ Frontend	React + TypeScript + TailwindCSS
 Extension	Chrome Extension Manifest V3
 Backend	FastAPI
 AI	OpenAI API
-Database	SQLite → PostgreSQL
+Database	MySQL
 Deployment	Docker + Render
 Frontend Hosting	Vercel
 Authentication	Firebase
