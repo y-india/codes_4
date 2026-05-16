@@ -1,0 +1,10 @@
+Area	Stack
+Frontend	React + TypeScript + TailwindCSS
+Extension	Chrome Extension Manifest V3
+Backend	FastAPI
+AI	OpenAI API
+Database	SQLite → PostgreSQL
+Deployment	Docker + Render
+Frontend Hosting	Vercel
+Authentication	Firebase
+Version Control	Git + GitHub
