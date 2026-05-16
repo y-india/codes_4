@@ -1,10 +1,91 @@
-Area	Stack
-Frontend	React + TypeScript + TailwindCSS
-Extension	Chrome Extension Manifest V3
-Backend	FastAPI
-AI	OpenAI API
-Database	MySQL
-Deployment	Docker + Render
-Frontend Hosting	Vercel
-Authentication	Firebase
-Version Control	Git + GitHub
+Frontend -> React + TypeScript + TailwindCSS (Intermediate)
+
+Extension -> Chrome Extension Manifest V3 (Advanced)
+
+Backend -> FastAPI (Intermediate)
+
+AI -> OpenAI API (Intermediate)
+
+Database -> SQLite → PostgreSQL (Basic → Intermediate)
+
+Deployment -> Docker + Render (Basic → Intermediate)
+
+Frontend Hosting -> Vercel (Basic)
+
+Authentication -> Firebase (Basic)
+
+Version Control -> Git + GitHub (Intermediate)
+
+Prompt Engineering -> Structured Prompting, Context Engineering, Few-shot Prompting (Advanced)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add in MIND:
+Prompt Engineering -> Advanced
+
+API Design -> Intermediate
+
+REST API Architecture -> Intermediate
+
+Authentication & Authorization -> Basic → Intermediate
+
+State Management -> Intermediate
+
+DOM Manipulation -> Intermediate
+
+Async Programming -> Intermediate
+
+Browser APIs Understanding -> Intermediate
+
+Message Passing Architecture -> Intermediate
+
+UI/UX Design -> Intermediate
+
+Keyboard-first Workflow Design -> Intermediate
+
+Theme System Design -> Basic
+
+Context Engineering -> Advanced
+
+Token Optimization -> Intermediate
+
+System Design Basics -> Basic → Intermediate
+
+Database Schema Design -> Intermediate
+
+Error Handling -> Intermediate
+
+Debugging -> Advanced
+
+Environment Variables Management -> Basic
+
+Deployment Workflow Understanding -> Intermediate
+
+Git Workflow & Collaboration -> Intermediate
+
+Performance Optimization -> Intermediate
+
+Security Basics -> Intermediate
+
+Rate Limiting Concepts -> Basic
+
+Product Thinking -> Intermediate
+
+SaaS Architecture Basics -> Basic
+
+Caching Concepts -> Basic
+
+Scalable Backend Thinking -> Basic → Intermediate
