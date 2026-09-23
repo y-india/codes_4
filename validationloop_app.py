@@ -1,3 +1,4 @@
+
 import re
 import streamlit as st
 
@@ -85,15 +86,7 @@ st.markdown(
             color: var(--blue-2);
         }
 
-        /* Main auth area */
-        .auth-card {
-            background: linear-gradient(180deg, rgba(32,37,45,0.98), rgba(26,30,36,0.98));
-            border: 1px solid var(--border);
-            border-radius: 28px;
-            padding: 1.55rem 2.55rem 2.2rem 2.55rem;
-            box-shadow: 0 24px 70px rgba(0,0,0,0.32);
-        }
-
+        /* Intro area */
         /* Intro content sits inside the transparent box above the form */
         .intro-box {
             min-height: 126px;
@@ -265,11 +258,6 @@ st.markdown(
                 padding-right: 1rem;
             }
 
-            .auth-card {
-                padding: 1.0rem;
-                border-radius: 20px;
-            }
-
             .intro-box {
                 min-height: 110px;
                 padding: 1.1rem 1.15rem;
@@ -309,9 +297,8 @@ if "signin_error" not in st.session_state:
     st.session_state.signin_error = ""
 
 # -----------------------------
-# Main card
+# Authentication form
 # -----------------------------
-st.markdown('<div class="auth-card">', unsafe_allow_html=True)
 
 st.markdown(
     '''
@@ -416,4 +403,3 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown("</div>", unsafe_allow_html=True)
