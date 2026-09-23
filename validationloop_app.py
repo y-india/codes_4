@@ -1,4 +1,3 @@
-
 import re
 import streamlit as st
 
@@ -86,26 +85,44 @@ st.markdown(
             color: var(--blue-2);
         }
 
-        /* Main card */
+        /* Main auth area */
         .auth-card {
             background: linear-gradient(180deg, rgba(32,37,45,0.98), rgba(26,30,36,0.98));
             border: 1px solid var(--border);
             border-radius: 28px;
-            padding: 2.4rem 2.55rem 2.2rem 2.55rem;
+            padding: 1.55rem 2.55rem 2.2rem 2.55rem;
             box-shadow: 0 24px 70px rgba(0,0,0,0.32);
         }
 
-        .auth-title {
-            font-size: 1.25rem;
-            font-weight: 700;
-            margin-bottom: 0.3rem;
-            color: var(--text);
+        /* Intro content sits inside the transparent box above the form */
+        .intro-box {
+            min-height: 126px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 1.45rem 1.65rem;
+            margin-bottom: 1.55rem;
+            border-radius: 22px;
+            border: 1px solid rgba(148,156,171,0.17);
+            background: rgba(92,101,116,0.10);
+            box-shadow:
+                inset 0 1px 0 rgba(255,255,255,0.02),
+                0 12px 36px rgba(0,0,0,0.12);
         }
 
-        .auth-subtitle {
+        .intro-title {
+            color: var(--text);
+            font-size: 1.22rem;
+            font-weight: 750;
+            letter-spacing: -0.02em;
+            margin: 0 0 0.3rem 0;
+        }
+
+        .intro-subtitle {
             color: var(--muted);
-            font-size: 0.92rem;
-            margin-bottom: 1.35rem;
+            font-size: 0.91rem;
+            line-height: 1.5;
+            margin: 0;
         }
 
         .field-label {
@@ -249,8 +266,14 @@ st.markdown(
             }
 
             .auth-card {
-                padding: 1.35rem;
+                padding: 1.0rem;
                 border-radius: 20px;
+            }
+
+            .intro-box {
+                min-height: 110px;
+                padding: 1.1rem 1.15rem;
+                border-radius: 17px;
             }
 
             .brand-name {
@@ -290,11 +313,18 @@ if "signin_error" not in st.session_state:
 # -----------------------------
 st.markdown('<div class="auth-card">', unsafe_allow_html=True)
 
-st.markdown('<div class="auth-title">Welcome to ValidationLoop</div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="auth-subtitle">Create your account to validate ideas before you build them.</div>',
+    '''
+    <div class="intro-box">
+        <div class="intro-title">Welcome to ValidationLoop</div>
+        <p class="intro-subtitle">
+            Create your account to validate ideas before you build them.
+        </p>
+    </div>
+    ''',
     unsafe_allow_html=True,
 )
+
 st.markdown('<div class="accent-line"></div>', unsafe_allow_html=True)
 
 name = st.text_input("Name", placeholder="Enter your name", label_visibility="visible")
