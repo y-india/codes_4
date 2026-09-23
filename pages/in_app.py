@@ -1,3 +1,4 @@
+import time
 import streamlit as st
 
 st.set_page_config(
@@ -279,14 +280,13 @@ if send_clicked:
         st.session_state["last_idea"] = clean_idea
         st.session_state["find_similar"] = find_similar
 
-        st.markdown(
-            '''
-            <div class="status">
-                Your idea has been received. Validation can now begin.
-            </div>
-            ''',
-            unsafe_allow_html=True,
-        )
+        progress = st.progress(0, text="Preparing your validation loop...")
+        for i in range(100):
+            time.sleep(0.1)
+            progress.progress(i + 1, text="Preparing your validation loop...")
+
+        progress.empty()
+        st.switch_page("pages\\loop_for_idea.py")
 
 st.markdown(
     '<div class="footer">ValidationLoop • Validate before you build.</div>',
