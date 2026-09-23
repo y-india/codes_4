@@ -1,0 +1,93 @@
+Frontend -> React(https://youtu.be/LuNPCSNr-nE?si=YZZbylMOzLOAKhAU)
++ TypeScript(https://youtu.be/kvP6hDXWy88?si=biqlMES_8vCjWIpE)+
+TailwindCSS(https://youtu.be/BTyDQRil9s4?si=hUELYv4pjBp7BSK1) (Intermediate)
+
+Extension -> Chrome Extension Manifest V3 (Advanced)
+
+Backend -> FastAPI (Intermediate)
+
+AI -> OpenAI API (Intermediate)
+
+Database -> SQLite → PostgreSQL (Basic → Intermediate)
+
+Deployment -> Docker + Render (Basic → Intermediate)
+
+Frontend Hosting -> Vercel (Basic)
+
+Authentication -> Firebase (Basic)
+
+Version Control -> Git + GitHub (Intermediate)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add in MIND:
+Prompt Engineering -> https://youtu.be/DvhFcIRRXyI?si=9rBAa0Is5hyAMzoD (Advanced)
+
+API Design -> Intermediate
+
+REST API Architecture -> Intermediate
+
+Authentication & Authorization -> Basic → Intermediate
+
+State Management -> Intermediate
+
+DOM Manipulation -> Intermediate
+
+Async Programming -> Intermediate
+
+Browser APIs Understanding -> Intermediate
+
+Message Passing Architecture -> Intermediate
+
+UI/UX Design -> Intermediate
+
+Keyboard-first Workflow Design -> Intermediate
+
+Theme System Design -> Basic
+
+Context Engineering -> Advanced
+
+Token Optimization -> Intermediate
+
+System Design Basics -> Basic → Intermediate
+
+Database Schema Design -> Intermediate
+
+Error Handling -> Intermediate
+
+Debugging -> Advanced
+
+Environment Variables Management -> Basic
+
+Deployment Workflow Understanding -> Intermediate
+
+Git Workflow & Collaboration -> Intermediate
+
+Performance Optimization -> Intermediate
+
+Security Basics -> Intermediate
+
+Rate Limiting Concepts -> Basic
+
+Product Thinking -> Intermediate
+
+SaaS Architecture Basics -> Basic
+
+Caching Concepts -> Basic
+
+Scalable Backend Thinking -> Basic → Intermediate
