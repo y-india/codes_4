@@ -1,5 +1,6 @@
 
 import re
+import time
 import streamlit as st
 
 st.set_page_config(
@@ -352,8 +353,14 @@ if signin_clicked:
     else:
         st.session_state.signin_message = (
             f"Sign in request received for {clean_name}. "
-            "This demo does not create a real account or store credentials."
+            "Loading your app..."
         )
+
+        # Show a 10-second loading state, then switch to the in-app page.
+        with st.spinner("Signing you in... Please wait."):
+            time.sleep(10)
+
+        st.switch_page(r"pages/in_app.py")
 
 if st.session_state.signin_error:
     st.markdown(
@@ -397,9 +404,4 @@ with ex2:
         """,
         unsafe_allow_html=True,
     )
-
-st.markdown(
-    '<div class="helper">UI prototype • No credentials are stored.</div>',
-    unsafe_allow_html=True,
-)
 
