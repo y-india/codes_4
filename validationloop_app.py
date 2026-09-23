@@ -360,7 +360,7 @@ if signin_clicked:
         with st.spinner("Signing you in... Please wait."):
             time.sleep(10)
 
-        st.switch_page(r"pages/in_app.py")
+        st.switch_page("pages\\in_app.py")
 
 if st.session_state.signin_error:
     st.markdown(
