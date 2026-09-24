@@ -281,8 +281,8 @@ if send_clicked:
         st.session_state["find_similar"] = find_similar
 
         progress = st.progress(0, text="Preparing your validation loop...")
-        for i in range(100):
-            time.sleep(0.1)
+        for i in range(99):
+            time.sleep(0.2)
             progress.progress(i + 1, text="Preparing your validation loop...")
 
         progress.empty()
