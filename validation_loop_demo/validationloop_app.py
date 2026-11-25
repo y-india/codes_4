@@ -7,7 +7,9 @@ st.set_page_config(
     page_title="ValidationLoop",
     page_icon="✓",
     layout="wide",
+    
     initial_sidebar_state="collapsed",
+    
 )
 
 # -----------------------------
@@ -216,6 +218,7 @@ st.markdown(
             margin: 0;
         }
 
+
         /* Status */
         .status-success {
             margin-top: 1rem;
@@ -322,6 +325,8 @@ password = st.text_input(
     type="password",
     placeholder="Create a password",
     label_visibility="visible",
+
+    
 )
 
 st.markdown("<div style='height: 0.35rem'></div>", unsafe_allow_html=True)
@@ -390,6 +395,9 @@ with ex1:
         """,
         unsafe_allow_html=True,
     )
+
+
+
 
 with ex2:
     st.markdown(
