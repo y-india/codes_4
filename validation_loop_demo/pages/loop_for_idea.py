@@ -7,6 +7,9 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
+
+
+# this was only for making youtube pretotype
 # =========================================================
 # Theme / UX
 # =========================================================
